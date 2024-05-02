@@ -1,5 +1,30 @@
 /* Custom styles for Voiceflow chat widget */
-.vfrc-chat, .vfrc-message, .vfrc-system-response, .vfrc-user-response {
-  background-color: #090909; /* Dark gray background */
-  color: #FFFFFF; /* White text */
+.vfrc-chat {
+    background-color: #090909; /* Dark background for the entire chat widget */
+    color: #FFFFFF; /* White text for general chat content */
+}
+
+.vfrc-message {
+    color: #FFD700; /* Gold text for messages to make them stand out */
+}
+
+.vfrc-header {
+    background-color: #333333; /* Darker background for the header */
+    color: #FFFFFF; /* White text for the header */
+}
+
+.vfrc-button {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: #FFFFFF; /* White text on buttons */
+}
+
+/* Additional styling to ensure visibility of changes */
+.vfrc-assistant-info--title {
+    font-weight: bold; /* Makes the title bold */
+    color: #FF4500; /* Red color for the assistant's title */
+}
+
+.vfrc-assistant-info--description {
+    font-style: italic; /* Italicize the description */
+    color: #00BFFF; /* Deep sky blue for the description */
 }
