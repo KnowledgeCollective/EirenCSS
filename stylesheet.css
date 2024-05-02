@@ -1,9 +1,5 @@
 /* Custom styles for Voiceflow chat widget */
-.vfrc-chat {
-  background-color: #090909; /* Dark background */
+.vfrc-chat, .vfrc-message, .vfrc-system-response, .vfrc-user-response {
+  background-color: #090909; /* Dark gray background */
   color: #FFFFFF; /* White text */
-}
-
-.vfrc-message {
-  color: #FFFFFF; /* Ensuring message text is also white */
 }
