@@ -1,7 +1,12 @@
 .vfrc-widget--chat {
+    background-color: black;
+    color: white;
     width: 600px;
 }
+
 .vfrc-system-response--list .vfrc-message--chat {
     max-width: 460px;
     width: 400px;
+    background-color: black;
+    color: white;
 }
